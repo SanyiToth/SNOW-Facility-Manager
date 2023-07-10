@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assigned_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change Color assigned_to Field To Green</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (g_form.getValue('assigned_to') == 'Andrew Och') {
+        g_form.addErrorMessage('Andrew Och');
+    }
+    g_form.addErrorMessage('Andrew Och');
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 13:18:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7154ee1972f6110db793dafe153afb2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Change Color assigned_to Field To Green</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_update_name>sys_script_client_d7154ee1972f6110db793dafe153afb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 13:40:31</sys_updated_on>
+        <table>x_1068794_facility_facility_case</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Facility Case">8e46b96597eb6110db793dafe153af42</application>
+        <file_path/>
+        <instance_id>8ceddeb2dbbc7b000ae3ac44d496199a</instance_id>
+        <instance_name>dev81681</instance_name>
+        <name>sys_script_client_d7154ee1972f6110db793dafe153afb2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;assigned_to&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Change Color assigned_to Field To Green&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (g_form.getValue('assigned_to') == 'Andrew Och') {
+        g_form.addErrorMessage('Andrew Och');
+    }
+    g_form.addErrorMessage('Andrew Och');
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-20 13:18:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d7154ee1972f6110db793dafe153afb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Color assigned_to Field To Green&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Facility Case" source="x_1068794_facility"&gt;8e46b96597eb6110db793dafe153af42&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Facility Case"&gt;8e46b96597eb6110db793dafe153af42&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d7154ee1972f6110db793dafe153afb2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-20 13:40:31&lt;/sys_updated_on&gt;&lt;table&gt;x_1068794_facility_facility_case&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1487794363</payload_hash>
+        <record_name>Change Color assigned_to Field To Green</record_name>
+        <reverted_from/>
+        <source>0a4639a597eb6110db793dafe153afd8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 13:40:31</sys_created_on>
+        <sys_id>325acea9972f6110db793dafe153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d90915520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 13:40:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>7a5acea93b2f6110667e2e39bd804886</update_guid>
+        <update_guid_history>7a5acea93b2f6110667e2e39bd804886:1487794363,733acaa9d52f6110ca948ea220fed4da:-1461269723,311a86a9e62f61108f2b9a7a493b2234:1931441766,598942a91c2f61107571d08500f46389:-769459587,8808c6295f2f61107841616f67bd407e:-1194948803,b0f70ae5242f61107fc76fe45fdcd01e:995097496,ded70629f72f6110ffd19f27ef48edb9:2064745220,71568ea5f42f6110e2ac033a32aeb960:-365996081,4a558a65632f611090b98675ead8999d:1640904363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 13:42:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0a7a90da9ecc41f7820b6b5bed3204b1</sys_id>
+        <sys_metadata>d7154ee1972f6110db793dafe153afb2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Color assigned_to Field To Green</sys_name>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_parent display_value="Facility Case">b287b9e597eb6110db793dafe153af53</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_scope_delete display_value="">0cabc9a56cc44be68173f01ef71188f9</sys_scope_delete>
+        <sys_update_name>sys_script_client_d7154ee1972f6110db793dafe153afb2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d7154ee1972f6110db793dafe153afb2">325acea9972f6110db793dafe153af87</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 13:42:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

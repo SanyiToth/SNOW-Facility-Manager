@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Facility Record">2b79f96997eb6110db793dafe153af22</sc_cat_item>
+        <sc_category display_value="Facilities">d25201c8c611227a00667da13c6d33af</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 12:37:22</sys_created_on>
+        <sys_id>f5eb79e997eb6110db793dafe153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities.Facility Record</sys_name>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_update_name>sc_cat_item_category_f5eb79e997eb6110db793dafe153afc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 12:37:22</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Facility Case">8e46b96597eb6110db793dafe153af42</application>
+        <file_path/>
+        <instance_id>8ceddeb2dbbc7b000ae3ac44d496199a</instance_id>
+        <instance_name>dev81681</instance_name>
+        <name>sc_cat_item_category_f5eb79e997eb6110db793dafe153afc2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Facility Record">2b79f96997eb6110db793dafe153af22</sc_cat_item><sc_category display_value="Facilities">d25201c8c611227a00667da13c6d33af</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-20 12:37:22</sys_created_on><sys_id>f5eb79e997eb6110db793dafe153afc2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Facilities.Facility Record</sys_name><sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package><sys_policy/><sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope><sys_update_name>sc_cat_item_category_f5eb79e997eb6110db793dafe153afc2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-20 12:37:22</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1600330515</payload_hash>
+        <record_name>Facilities.Facility Record</record_name>
+        <reverted_from/>
+        <source>0a4639a597eb6110db793dafe153afd8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 12:37:22</sys_created_on>
+        <sys_id>8aebb12d97eb6110db793dafe153af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188d8cf46600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 12:37:22</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c2ebb12d5ceb6110bc30c9a73e245097</update_guid>
+        <update_guid_history>c2ebb12d5ceb6110bc30c9a73e245097:1600330515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Facilities.Facility Record">44dcb56d97eb6110db793dafe153aff2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 12:41:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>398a25a693a24013991c4575be838de9</sys_id>
+        <sys_metadata>f5eb79e997eb6110db793dafe153afc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facilities.Facility Record</sys_name>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_scope_delete display_value="">0cabc9a56cc44be68173f01ef71188f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f5eb79e997eb6110db793dafe153afc2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f5eb79e997eb6110db793dafe153afc2">8aebb12d97eb6110db793dafe153af97</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 12:41:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>requested_by</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Manager Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var currentUserID = g_user.userID;
+    g_form.setValue('manager', currentUserID);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 13:52:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11a9ede2976b6110db793dafe153af0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Manager Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_update_name>sys_script_client_11a9ede2976b6110db793dafe153af0d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 13:58:17</sys_updated_on>
+        <table>x_1068794_facility_facility_case</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Facility Case">8e46b96597eb6110db793dafe153af42</application>
+        <file_path/>
+        <instance_id>8ceddeb2dbbc7b000ae3ac44d496199a</instance_id>
+        <instance_name>dev81681</instance_name>
+        <name>sys_script_client_11a9ede2976b6110db793dafe153af0d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;requested_by&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Manager Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var currentUserID = g_user.userID;
+    g_form.setValue('manager', currentUserID);
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-23 13:52:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;11a9ede2976b6110db793dafe153af0d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Manager Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Facility Case" source="x_1068794_facility"&gt;8e46b96597eb6110db793dafe153af42&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Facility Case"&gt;8e46b96597eb6110db793dafe153af42&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_11a9ede2976b6110db793dafe153af0d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-23 13:58:17&lt;/sys_updated_on&gt;&lt;table&gt;x_1068794_facility_facility_case&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>675539554</payload_hash>
+        <record_name>Set Manager Field</record_name>
+        <reverted_from/>
+        <source>0a4639a597eb6110db793dafe153afd8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 13:58:17</sys_created_on>
+        <sys_id>e83bed26976b6110db793dafe153afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188e88c6f160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 13:58:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>243bed26216b6110a66ad4a2c5a400aa</update_guid>
+        <update_guid_history>243bed26216b6110a66ad4a2c5a400aa:675539554,bf0bed26b36b61104c58b16d3a63230a:27708970,92e9a1260b6b6110e30cf6352ea828d5:1116501426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-23 14:07:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2dd88db16cfe477ab89d79b2c3f4faa4</sys_id>
+        <sys_metadata>11a9ede2976b6110db793dafe153af0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Manager Field</sys_name>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_parent display_value="Facility Case">b287b9e597eb6110db793dafe153af53</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_scope_delete display_value="">0cabc9a56cc44be68173f01ef71188f9</sys_scope_delete>
+        <sys_update_name>sys_script_client_11a9ede2976b6110db793dafe153af0d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_11a9ede2976b6110db793dafe153af0d">e83bed26976b6110db793dafe153afaa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-23 14:07:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

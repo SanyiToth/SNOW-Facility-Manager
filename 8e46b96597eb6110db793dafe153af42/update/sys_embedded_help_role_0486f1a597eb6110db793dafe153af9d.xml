@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1068794_facility.facilitycase_admin" name="x_1068794_facility.facilitycase_admin">7376f1a597eb6110db793dafe153af9a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-20 12:13:45</sys_created_on>
+        <sys_id>0486f1a597eb6110db793dafe153af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7376f1a597eb6110db793dafe153af9a</sys_name>
+        <sys_package display_value="Facility Case" source="x_1068794_facility">8e46b96597eb6110db793dafe153af42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facility Case">8e46b96597eb6110db793dafe153af42</sys_scope>
+        <sys_update_name>sys_embedded_help_role_0486f1a597eb6110db793dafe153af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-20 12:13:45</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
